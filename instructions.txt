@@ -1,0 +1,7 @@
+le bouton compte mene soit vers la page connexion ou vers la page profil (ca dépent si il ya un utilisateur connecté ou pas )
+le bouton se deconnecter doit effacer les données de l'utilisateur et mener vers la page de connexion 
+la page profil contient un tableau les case du nom utilisateur et adresse e mai doivent etre remplies avec les info de l'utilisateur
+la page shop contient un tableau de produit qui doit etre généré a partir d'une base donnée qu'on a pas reussi a faire donc tu peut utiliser une boucle simple(laisse ça en dernier je vais essayer de le faire)
+le bouton ajouter au panier doit ajouter un element du tableau shop vers le tableau panier de la page panier (un element=un objet javascript)
+t'inquete pas pour le bouton payer on va pas se concentrer sur ça 
+essaye de faire suffisament de chose pour la presentation de demain sinon le reste tu peut le faire plus tard 

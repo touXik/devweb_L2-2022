@@ -1,0 +1,109 @@
+body {
+	margin: 20px 0;
+	background: url('../images/bg.jpg') center center;
+}
+
+.colonnes {
+	float:left;
+	height: 100%;
+}
+
+.colonne1 {
+	width: 12%;
+}
+
+.colonne2 {
+	width: 86%;
+}
+
+
+
+.header1 {
+	margin-bottom: 20px;
+}
+
+.header1 .icons {
+	float: left;
+}
+
+
+
+.header {
+	clear: both;
+}
+
+.logo {
+	float: left;
+}
+
+.navbar {
+	float: right;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul > li {
+    display: inline-block;
+	margin-left: 10px;
+
+}
+
+.navbar ul > li > a {
+    display: inline-block;
+    text-decoration: none;
+	  font-size:x-large;
+    padding: 8px 17px;
+    font-weight: 500;
+    color: black;
+	transition: color 0.7s, background-color 0.5s;
+	border-radius: 25px ;
+    
+}
+.parag {
+	float :left;
+	padding-top: 100px;
+}
+#titre {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:2cm;
+	color :black;
+	margin-bottom: 0%;
+}
+#cote{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+	color :black ;
+}
+#btn{
+	  border-radius:25px;
+	  background-color:black;
+	  width:100px;
+	  color:white ;
+	  font-size:x-large;
+    padding: 10px 10px 15px 30px;
+    font-weight: 500;
+    
+
+}
+
+.navbar ul > li:hover > a {
+    color: white;
+    background-color: black;
+	
+	
+	
+}
+#buybtn{
+	float :left;
+	text-decoration: underline;
+	color:white; 
+	background-color :black ;
+	font-size: x-large;
+	text-decoration-color: black;
+	padding: 10px 20px ;
+	border-radius: 20px; 
+}

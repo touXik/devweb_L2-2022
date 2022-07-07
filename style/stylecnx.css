@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+	margin: 100px;
+	font-family: "Abril Fatface", cursive;
+}
+h1{
+    display: flex;
+     justify-content: center;
+	color: #00861B ;
+
+}
+h2{
+
+	color: red ;
+}
+h3{
+	
+	color: gray ;
+}
+
+.input-form {
+display: flex;
+flex-direction:column-reverse;
+margin: 1.2em 0; 
+}
+input,label,button{
+	transition:all .3s;
+}
+label{
+	transform: translate(10px, -15px);
+	cursor:text;
+	transform-origin:left top;
+	position: absolute;
+}
+input{
+	padding: 10px;
+	border:none; outline:none; 
+	border-bottom: 2px solid grey;
+}
+button{
+	border:0; padding: 10px 15px;
+	cursor:pointer; color:white;
+	background-color:#AACE3A;
+
+}
+  button:focus,button:hover{
+	background-color:   #00861B  ;
+}
+.submit-form{
+	text-align:right;
+
+}
+input::placeholder {
+	opacity: 0;
+}
+input:focus,
+input:not(:placeholder-shown){
+	border-bottom: 2px solid red;
+}
+input:not(:placeholder-shown)~ label,
+input:focus ~ label {
+	transform: translate(10px, -30px) scale(.8);
+
+}
